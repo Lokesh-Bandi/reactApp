@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footerTable1 td{
+  width: 20%;
+  height: 40px
+}
+.bgImage
+{
+  background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeImage
+{
+  background-image: url("https://www.tripsavvy.com/thmb/4Swfscl2UAWR1B_8WyE_LH14pKA=/2120x1414/filters:fill(auto,1)/GettyImages-938174878-534efd6cc28e45e78fae6a841c1e0aaf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 500px;
+}
+.img 
+{
+  background-image: url("https://c8.alamy.com/comp/2F5JRJR/queen-victoria-eugenie-of-spain-2F5JRJR.jpg");
+  background-size: cover;
+  object-fit: contain;
+}
+.img2
+{
+  background-image: url("https://i0.wp.com/graceroc.com/wp-content/uploads/2021/02/special-ed.jpg?resize=800%2C542&ssl=1");
+  background-size: cover;
+  object-fit: contain;
+}
+
+
